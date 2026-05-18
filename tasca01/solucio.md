@@ -41,7 +41,6 @@ flowchart TD
     J --> K[Cobrament i tancament de taula]
     K --> L[Dades enviades a informe d'estoc i vendes]
 ```
-![Mapa de processos](/tasca01/imgT01/mapa_processos.png)
 
 **Descripció del flux:**
 1. El cambrer pren la comanda en una tauleta amb app de TPV, seleccionant taula i productes.
@@ -78,7 +77,6 @@ graph TD
     VLAN10_Staff --- FW
     VLAN20_Clients --- FW
 ```
-![disseny de la xarxa](/tasca01/imgT01/disseny_xarxa.png)
 **Característiques clau:**
 - **VLAN 10 (Staff)**: accés aïllat, sense visibilitat des de la xarxa de clients. Trànsit del TPV, tauletes i pantalla de cuina encapsulat i prioritzat (QoS).
 - **VLAN 20 (Clients)**: xarxa separada amb sortida a Internet a través d’un portal captiu. Els usuaris accepten condicions d’ús i veuen una promoció abans de navegar.
