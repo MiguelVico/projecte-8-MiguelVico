@@ -154,6 +154,8 @@ A c27 es confirma la transferència completa.
 Filtrem per `telnet` a `captura1.pcapng` (c29). Seguint el flux TCP (c29 menú contextual) podem veure la sortida de la sessió Telnet. L’usuari es connecta a `towel.blinkenlights.nl` (c31) i veu una animació ASCII d’una **nau espacial**.
 
 ![Filtre telnet](/tascaKALI/imgKALI/c29.png)
+![Nau espacial](/tascaKALI/imgKALI/c30.png)
+
 ![Resolució inversa del domini](/tascaKALI/imgKALI/c31.png)
 
 La nau petita està formada pels caràcters: **`<^>`** (una fletxa dins de claudàtors) o similar. A la captura c30 (que l’usuari té penjada) es veu clarament. Els caràcters que la componen són: `^` , `<` , `>` i `|` o `-` depenent de la orientació.
@@ -197,6 +199,8 @@ SSH-2.0-OpenSSH_7.1
 
 a40a8i6uA<chacha20-poly1305@openssh.com,aes128-cbc,aes192-cbc,aes256-cbc,3des-bcmauthua64-etm@openssh.com,uac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,mac-sha2-256-hmac-sha2-512-hmac-sha1etm@openssh.com,zlib@openssh.com,zlib@openssh.com,zlib@openssh.com,zlib@openssh.com,zlib@openssh.com,zlib@openssh.com,zlib@openssh.com.zlib@openssh.com.zlib@openssh.com.zlib@openssh.com.zlib
 ```
+![Paquet SSH de 326 bytes](/tascaKALI/imgKALI/c33.png)
+
 
 > **Resposta:** El contingut del paquet de 326 bytes és la negociació d’algorismes SSH (banner i llista de mètodes).
 
