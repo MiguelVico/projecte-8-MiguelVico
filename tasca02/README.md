@@ -64,4 +64,4 @@ Al document `solucio.md` trobareu:
 
 ---
 
-*Projecte Connecta't al Futur – SMX 2n A/B – Curs 2025/2026*
+*Projecte Connecta't al Futur – SMX 2n A – Curs 2025/2026*
